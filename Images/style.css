@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+#website{
+    font-size: 30px;
+    color: rgba(192, 56, 2, 0.973);
+}
+.orange-color{
+    color: orange;
+}
+p{
+    color: dimgray;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-top: 60px;
+}
+.half-width img{
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(248, 168, 136), rgb(255, 64, 31));
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+section{
+    height: 800px;
+}
+.top-banner{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+h2{
+    color: rgb(207, 39, 157);
+    font-size: 35px;
+}
+.dream{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#exp{
+    font-size: 25px ;
+    color: black;
+    margin-left: 2%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.exp-area{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 350px;
+}
+.experience{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.development{
+    color: black;
+}
+#Web{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, rgb(248, 168, 136), rgb(255, 64, 31));
+    border-image-slice: 1;
+}
+#App{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, cyan, darkblue);
+    border-image-slice: 1;
+}
+footer{
+    font-size: 18px;
+    text-align: center;
+}
